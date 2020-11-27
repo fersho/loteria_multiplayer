@@ -1,0 +1,30 @@
+{
+  "name": "loteria",
+  "version": "1.0.0",
+  "description": "Loteria game multiplayer via sockets",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^3.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fersho/loteria_multiplayer.git"
+  },
+  "keywords": [
+    "loteria",
+    "sockets",
+    "game",
+    "multiplayer"
+  ],
+  "author": "Fernando Marquez",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/fersho/loteria_multiplayer/issues"
+  },
+  "homepage": "https://github.com/fersho/loteria_multiplayer#readme"
+}
