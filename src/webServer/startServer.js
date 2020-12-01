@@ -1,5 +1,6 @@
 const express = require("express");
 const socket = require("socket.io");
+var path = require('path');
 
 // App setup
 const PORT = 3000;
@@ -11,6 +12,11 @@ const server = app.listen(PORT, function () {
 
 // Static files
 app.use(express.static("src/client"));
+
+app.get('/', (req, res) => {
+  res.sendFile(path.resolve(__dirname + '/../client/views/index.html'));
+});
+
 
 // Socket setup
 const io = socket(server);
