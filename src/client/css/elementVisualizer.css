@@ -1,0 +1,15 @@
+.loteria-element-visualizer {
+    width: 50px;
+    height: 90px;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.loteria-element-visualizer-image {
+    width: 100%;
+    height: auto;
+}

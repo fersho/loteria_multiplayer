@@ -1,4 +1,10 @@
 .loteria-card-element {
     width: 100px;
-    height: 200px;
+    height: 150px;
+    float: left;
+}
+
+.loteria-card-element-image {
+    width: 100%;
+    height: auto;
 }
