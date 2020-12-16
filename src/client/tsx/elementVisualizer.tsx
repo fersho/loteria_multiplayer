@@ -33,10 +33,11 @@ export default class ElementVisualizer extends React.Component {
             // un bloque catch() para que no interceptemos errores
             // de errores reales en los componentes.
             (error) => {
-                this.setState({
-                isLoaded: true,
-                error
-                });
+                console.log(error);
+                // this.setState({
+                // isLoaded: true,
+                // error
+                // });
             }
         )
     }

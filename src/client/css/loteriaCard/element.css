@@ -1,10 +1,21 @@
 .loteria-card-element {
-    width: 100px;
-    height: 150px;
+    width: 23%;
+    height: 23%;
     float: left;
+    padding: 1%;
+    position: relative;
 }
 
 .loteria-card-element-image {
-    width: 100%;
+    width: 98%;
+    height: 100%;
+    position: absolute;
+}
+
+.loteria-card-element-image-indicator {
+    position: relative;
+    width: 50%;
     height: auto;
+    top: 40%;
+    left: 30%;
 }

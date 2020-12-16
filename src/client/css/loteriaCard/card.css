@@ -1,4 +1,44 @@
 .loteria-card {
-    width: 400px;
-    height: 600px;
+    width: 70vw;
+    height: 120vw;
+    margin: auto;
+    margin-top: 19%;
+}
+
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .loteria-card {
+        width: 30vw;
+        height: 45vw;
+        margin-left: 10%;
+        margin-top: 3%;
+    }
+
+    width: 20vw;
+    height: 30vw;
+    position: fixed;
+    top: 24%;
+    right: 20%;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
 }

@@ -25,7 +25,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".loteria-element-visualizer {\n    width: 50px;\n    height: 90px;\n    position: fixed;\n    top: 10px;\n    right: 10px;\n}\n\n.loteria-element-visualizer-image {\n    width: 100%;\n    height: auto;\n}", "",{"version":3,"sources":["webpack://./src/client/css/elementVisualizer.css"],"names":[],"mappings":"AAAA;IACI,WAAW;IACX,YAAY;IACZ,eAAe;IACf,SAAS;IACT,WAAW;AACf;;AAEA;IACI,WAAW;IACX,YAAY;AAChB","sourcesContent":[".loteria-element-visualizer {\n    width: 50px;\n    height: 90px;\n    position: fixed;\n    top: 10px;\n    right: 10px;\n}\n\n.loteria-element-visualizer-image {\n    width: 100%;\n    height: auto;\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".loteria-element-visualizer {\n    width: 50px;\n    height: 78px;\n    position: fixed;\n    top: 10px;\n    right: 10px;\n    border-color: black;\n    border-width: 3px;\n    border-style: solid;\n}\n\n.loteria-element-visualizer-image {\n    width: 100%;\n    height: auto;\n}\n\n@media only screen and (max-width: 600px) {\n\n}\n\n/* Small devices (portrait tablets and large phones, 600px and up) */\n@media only screen and (min-width: 600px) {\n\n}\n\n/* Medium devices (landscape tablets, 768px and up) */\n@media only screen and (min-width: 768px) {\n\n}\n\n/* Large devices (laptops/desktops, 992px and up) */\n@media only screen and (min-width: 992px) {\n    .loteria-element-visualizer {    \n        width: 20vw;\n        height: 30vw;\n        position: fixed;\n        top: 24%;\n        right: 20%;\n        border-color: black;\n        border-width: 3px;\n        border-style: solid;\n    }\n}\n\n/* Extra large devices (large laptops and desktops, 1200px and up) */\n@media only screen and (min-width: 1200px) {\n\n}", "",{"version":3,"sources":["webpack://./src/client/css/elementVisualizer.css"],"names":[],"mappings":"AAAA;IACI,WAAW;IACX,YAAY;IACZ,eAAe;IACf,SAAS;IACT,WAAW;IACX,mBAAmB;IACnB,iBAAiB;IACjB,mBAAmB;AACvB;;AAEA;IACI,WAAW;IACX,YAAY;AAChB;;AAEA;;AAEA;;AAEA,oEAAoE;AACpE;;AAEA;;AAEA,qDAAqD;AACrD;;AAEA;;AAEA,mDAAmD;AACnD;IACI;QACI,WAAW;QACX,YAAY;QACZ,eAAe;QACf,QAAQ;QACR,UAAU;QACV,mBAAmB;QACnB,iBAAiB;QACjB,mBAAmB;IACvB;AACJ;;AAEA,oEAAoE;AACpE;;AAEA","sourcesContent":[".loteria-element-visualizer {\n    width: 50px;\n    height: 78px;\n    position: fixed;\n    top: 10px;\n    right: 10px;\n    border-color: black;\n    border-width: 3px;\n    border-style: solid;\n}\n\n.loteria-element-visualizer-image {\n    width: 100%;\n    height: auto;\n}\n\n@media only screen and (max-width: 600px) {\n\n}\n\n/* Small devices (portrait tablets and large phones, 600px and up) */\n@media only screen and (min-width: 600px) {\n\n}\n\n/* Medium devices (landscape tablets, 768px and up) */\n@media only screen and (min-width: 768px) {\n\n}\n\n/* Large devices (laptops/desktops, 992px and up) */\n@media only screen and (min-width: 992px) {\n    .loteria-element-visualizer {    \n        width: 20vw;\n        height: 30vw;\n        position: fixed;\n        top: 24%;\n        right: 20%;\n        border-color: black;\n        border-width: 3px;\n        border-style: solid;\n    }\n}\n\n/* Extra large devices (large laptops and desktops, 1200px and up) */\n@media only screen and (min-width: 1200px) {\n\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -55,7 +55,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".loteria-card {\n    width: 400px;\n    height: 600px;\n}", "",{"version":3,"sources":["webpack://./src/client/css/loteriaCard/card.css"],"names":[],"mappings":"AAAA;IACI,YAAY;IACZ,aAAa;AACjB","sourcesContent":[".loteria-card {\n    width: 400px;\n    height: 600px;\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".loteria-card {\n    width: 70vw;\n    height: 120vw;\n    margin: auto;\n    margin-top: 19%;\n}\n\n@media only screen and (max-width: 600px) {\n\n}\n\n/* Small devices (portrait tablets and large phones, 600px and up) */\n@media only screen and (min-width: 600px) {\n\n}\n\n/* Medium devices (landscape tablets, 768px and up) */\n@media only screen and (min-width: 768px) {\n\n}\n\n/* Large devices (laptops/desktops, 992px and up) */\n@media only screen and (min-width: 992px) {\n    .loteria-card {\n        width: 30vw;\n        height: 45vw;\n        margin-left: 10%;\n        margin-top: 3%;\n    }\n\n    width: 20vw;\n    height: 30vw;\n    position: fixed;\n    top: 24%;\n    right: 20%;\n    border-color: black;\n    border-width: 3px;\n    border-style: solid;\n}\n\n/* Extra large devices (large laptops and desktops, 1200px and up) */\n@media only screen and (min-width: 1200px) {\n\n}", "",{"version":3,"sources":["webpack://./src/client/css/loteriaCard/card.css"],"names":[],"mappings":"AAAA;IACI,WAAW;IACX,aAAa;IACb,YAAY;IACZ,eAAe;AACnB;;AAEA;;AAEA;;AAEA,oEAAoE;AACpE;;AAEA;;AAEA,qDAAqD;AACrD;;AAEA;;AAEA,mDAAmD;AACnD;IACI;QACI,WAAW;QACX,YAAY;QACZ,gBAAgB;QAChB,cAAc;IAClB;;IAEA,WAAW;IACX,YAAY;IACZ,eAAe;IACf,QAAQ;IACR,UAAU;IACV,mBAAmB;IACnB,iBAAiB;IACjB,mBAAmB;AACvB;;AAEA,oEAAoE;AACpE;;AAEA","sourcesContent":[".loteria-card {\n    width: 70vw;\n    height: 120vw;\n    margin: auto;\n    margin-top: 19%;\n}\n\n@media only screen and (max-width: 600px) {\n\n}\n\n/* Small devices (portrait tablets and large phones, 600px and up) */\n@media only screen and (min-width: 600px) {\n\n}\n\n/* Medium devices (landscape tablets, 768px and up) */\n@media only screen and (min-width: 768px) {\n\n}\n\n/* Large devices (laptops/desktops, 992px and up) */\n@media only screen and (min-width: 992px) {\n    .loteria-card {\n        width: 30vw;\n        height: 45vw;\n        margin-left: 10%;\n        margin-top: 3%;\n    }\n\n    width: 20vw;\n    height: 30vw;\n    position: fixed;\n    top: 24%;\n    right: 20%;\n    border-color: black;\n    border-width: 3px;\n    border-style: solid;\n}\n\n/* Extra large devices (large laptops and desktops, 1200px and up) */\n@media only screen and (min-width: 1200px) {\n\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -85,7 +85,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".loteria-card-element {\n    width: 100px;\n    height: 150px;\n    float: left;\n}\n\n.loteria-card-element-image {\n    width: 100%;\n    height: auto;\n}", "",{"version":3,"sources":["webpack://./src/client/css/loteriaCard/element.css"],"names":[],"mappings":"AAAA;IACI,YAAY;IACZ,aAAa;IACb,WAAW;AACf;;AAEA;IACI,WAAW;IACX,YAAY;AAChB","sourcesContent":[".loteria-card-element {\n    width: 100px;\n    height: 150px;\n    float: left;\n}\n\n.loteria-card-element-image {\n    width: 100%;\n    height: auto;\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".loteria-card-element {\n    width: 23%;\n    height: 23%;\n    float: left;\n    padding: 1%;\n    position: relative;\n}\n\n.loteria-card-element-image {\n    width: 98%;\n    height: 100%;\n    position: absolute;\n}\n\n.loteria-card-element-image-indicator {\n    position: relative;\n    width: 50%;\n    height: auto;\n    top: 40%;\n    left: 30%;\n}", "",{"version":3,"sources":["webpack://./src/client/css/loteriaCard/element.css"],"names":[],"mappings":"AAAA;IACI,UAAU;IACV,WAAW;IACX,WAAW;IACX,WAAW;IACX,kBAAkB;AACtB;;AAEA;IACI,UAAU;IACV,YAAY;IACZ,kBAAkB;AACtB;;AAEA;IACI,kBAAkB;IAClB,UAAU;IACV,YAAY;IACZ,QAAQ;IACR,SAAS;AACb","sourcesContent":[".loteria-card-element {\n    width: 23%;\n    height: 23%;\n    float: left;\n    padding: 1%;\n    position: relative;\n}\n\n.loteria-card-element-image {\n    width: 98%;\n    height: 100%;\n    position: absolute;\n}\n\n.loteria-card-element-image-indicator {\n    position: relative;\n    width: 50%;\n    height: auto;\n    top: 40%;\n    left: 30%;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -30883,10 +30883,11 @@ var ElementVisualizer = /** @class */ (function (_super) {
         // un bloque catch() para que no interceptemos errores
         // de errores reales en los componentes.
         function (error) {
-            _this.setState({
-                isLoaded: true,
-                error: error
-            });
+            console.log(error);
+            // this.setState({
+            // isLoaded: true,
+            // error
+            // });
         });
     };
     ElementVisualizer.prototype.render = function () {
@@ -31028,12 +31029,34 @@ var ReactDOM = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/in
 __webpack_require__(/*! ./../../css/loteriaCard/element.css */ "./src/client/css/loteriaCard/element.css");
 var Element = /** @class */ (function (_super) {
     __extends(Element, _super);
-    function Element() {
-        return _super !== null && _super.apply(this, arguments) || this;
+    function Element(props) {
+        var _this = _super.call(this, props) || this;
+        _this.state = {
+            indicator: null
+        };
+        return _this;
     }
+    ;
     Element.prototype.render = function () {
-        return (React.createElement("div", { className: "loteria-card-element" },
+        return (React.createElement("div", { className: "loteria-card-element", onClick: this.handleClick.bind(this) },
             React.createElement("img", { className: "loteria-card-element-image", src: this.props.image, alt: "" })));
+    };
+    Element.prototype.handleClick = function (event) {
+        this.addIndicator(event.target);
+        console.log(event.target);
+    };
+    Element.prototype.addIndicator = function (elem) {
+        if (this.state.indicator) {
+            this.state.indicator.parentElement.removeChild(this.state.indicator);
+            this.state.indicator = null;
+        }
+        else {
+            var img = document.createElement('img');
+            img.className = 'loteria-card-element-image-indicator';
+            img.src = '/images/indicator/bean.png';
+            elem.parentElement.appendChild(img);
+            this.state.indicator = img;
+        }
     };
     return Element;
 }(React.Component));
