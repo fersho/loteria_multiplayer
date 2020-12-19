@@ -1,0 +1,31 @@
+version: "3"
+
+services:
+    nodejs:
+        container_name: loteria-nodejs
+        build: '.'
+        ports:
+            - "3000:3000"
+        depends_on:
+            - mongo       
+        volumes:
+            - ./project:/srv/loteria:delegated    
+        networks:
+            main:
+    mongo:
+        container_name: loteria-mongo
+        image: mongo
+        restart: always
+        environment:
+            MONGO_INITDB_ROOT_USERNAME: root
+            MONGO_INITDB_ROOT_PASSWORD: root
+        volumes:
+            - dbdata:/data/db
+        networks:
+            main:
+volumes:
+  dbdata:
+    driver: local
+
+networks:
+  main:
