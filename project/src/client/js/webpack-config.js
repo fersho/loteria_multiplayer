@@ -2,10 +2,15 @@ var path = require('path');
 
 module.exports = {
     devtool: 'source-map',
-    entry: path.resolve(__dirname, './../tsx') + '/app.tsx',
     mode: "development",
+    entry: {
+        app: [path.resolve(__dirname, './../tsx') + '/app.tsx'],
+        game: [path.resolve(__dirname, './../tsx') + '/game.tsx'],
+        new_game: [path.resolve(__dirname, './../tsx') + '/newGame/newGame.tsx']
+    },
     output: {
-        filename: "./../src/client/js/dist/app-bundle.js"
+        path: path.resolve(__dirname, "dist"),
+        filename: "./../dist/[name]-bundle.js"
     },
     resolve: {
         extensions: ['.Webpack.js', '.web.js', '.ts', '.js', '.jsx', '.tsx']

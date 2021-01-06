@@ -1,0 +1,41 @@
+#main-container {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+}
+
+#initial-menu-background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.initial-menu-buttons-container {
+    width: 100vw;
+    height: 60vh;
+    position: absolute;
+    top: 30vh;
+}
+
+.initial-menu-button {
+    display: block;
+    width: 500px;
+    height: 60px;
+    margin-top: 50px;
+    border-width: 5px;
+    border-color: white;
+    margin-left: 50px;
+    background-color: steelblue;
+    color: white;
+    font-size: x-large;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+#initial-menu-start-game {
+}
+
+#initial-menu-join-game {
+}

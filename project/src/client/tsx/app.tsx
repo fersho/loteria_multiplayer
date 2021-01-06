@@ -2,21 +2,19 @@ declare var require: any
 
 var React = require('react');
 var ReactDOM = require('react-dom');
-var Card = require('./loteriaCard/card.tsx').default;
-var ElementVisualizer = require('./elementVisualizer.tsx').default;
+var ButtonsContainer = require('./initialMenu/buttonsContainer.tsx').default;
+import './../css/initialMenu/main.css';
 
-export class Hello extends React.Component {
+export class App extends React.Component {
     render() {
-        console.log(Element);
         return (
-            <div>
-                <h1>Welcome to Loteria!!</h1>
-                <ElementVisualizer />
-                <Card />
+            <div id="main-container">
+                <img id="initial-menu-background-image" src="/images/loteriaBackground.jpg" alt=""/>
+                <ButtonsContainer />
             </div>
             
         );
     }
 }
 
-ReactDOM.render(<Hello />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));

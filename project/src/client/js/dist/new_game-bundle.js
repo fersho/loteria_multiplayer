@@ -32,6 +32,66 @@ ___CSS_LOADER_EXPORT___.push([module.id, "#main-container {\n    width: 100vw;\n
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js!./src/client/css/loteriaCard/card.css":
+/*!***********************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./src/client/css/loteriaCard/card.css ***!
+  \***********************************************************************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_exports__, __webpack_require__.r, module.id, __webpack_require__.d, __webpack_require__.*, module */
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/cssWithMappingToString.js */ "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default()));
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, ".loteria-card {\n    width: 70vw;\n    height: 120vw;\n    margin: auto;\n    margin-top: 19%;\n}\n\n@media only screen and (max-width: 600px) {\n\n}\n\n/* Small devices (portrait tablets and large phones, 600px and up) */\n@media only screen and (min-width: 600px) {\n\n}\n\n/* Medium devices (landscape tablets, 768px and up) */\n@media only screen and (min-width: 768px) {\n\n}\n\n/* Large devices (laptops/desktops, 992px and up) */\n@media only screen and (min-width: 992px) {\n    .loteria-card {\n        width: 30vw;\n        height: 45vw;\n        margin-left: 10%;\n        margin-top: 3%;\n    }\n\n    width: 20vw;\n    height: 30vw;\n    position: fixed;\n    top: 24%;\n    right: 20%;\n    border-color: black;\n    border-width: 3px;\n    border-style: solid;\n}\n\n/* Extra large devices (large laptops and desktops, 1200px and up) */\n@media only screen and (min-width: 1200px) {\n\n}", "",{"version":3,"sources":["webpack://./src/client/css/loteriaCard/card.css"],"names":[],"mappings":"AAAA;IACI,WAAW;IACX,aAAa;IACb,YAAY;IACZ,eAAe;AACnB;;AAEA;;AAEA;;AAEA,oEAAoE;AACpE;;AAEA;;AAEA,qDAAqD;AACrD;;AAEA;;AAEA,mDAAmD;AACnD;IACI;QACI,WAAW;QACX,YAAY;QACZ,gBAAgB;QAChB,cAAc;IAClB;;IAEA,WAAW;IACX,YAAY;IACZ,eAAe;IACf,QAAQ;IACR,UAAU;IACV,mBAAmB;IACnB,iBAAiB;IACjB,mBAAmB;AACvB;;AAEA,oEAAoE;AACpE;;AAEA","sourcesContent":[".loteria-card {\n    width: 70vw;\n    height: 120vw;\n    margin: auto;\n    margin-top: 19%;\n}\n\n@media only screen and (max-width: 600px) {\n\n}\n\n/* Small devices (portrait tablets and large phones, 600px and up) */\n@media only screen and (min-width: 600px) {\n\n}\n\n/* Medium devices (landscape tablets, 768px and up) */\n@media only screen and (min-width: 768px) {\n\n}\n\n/* Large devices (laptops/desktops, 992px and up) */\n@media only screen and (min-width: 992px) {\n    .loteria-card {\n        width: 30vw;\n        height: 45vw;\n        margin-left: 10%;\n        margin-top: 3%;\n    }\n\n    width: 20vw;\n    height: 30vw;\n    position: fixed;\n    top: 24%;\n    right: 20%;\n    border-color: black;\n    border-width: 3px;\n    border-style: solid;\n}\n\n/* Extra large devices (large laptops and desktops, 1200px and up) */\n@media only screen and (min-width: 1200px) {\n\n}"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./src/client/css/loteriaCard/element.css":
+/*!**************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./src/client/css/loteriaCard/element.css ***!
+  \**************************************************************************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_exports__, __webpack_require__.r, module.id, __webpack_require__.d, __webpack_require__.*, module */
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/cssWithMappingToString.js */ "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default()));
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, ".loteria-card-element {\n    width: 23%;\n    height: 23%;\n    float: left;\n    padding: 1%;\n    position: relative;\n}\n\n.loteria-card-element-image {\n    width: 98%;\n    height: 100%;\n    position: absolute;\n}\n\n.loteria-card-element-image-indicator {\n    position: relative;\n    width: 50%;\n    height: auto;\n    top: 40%;\n    left: 30%;\n}", "",{"version":3,"sources":["webpack://./src/client/css/loteriaCard/element.css"],"names":[],"mappings":"AAAA;IACI,UAAU;IACV,WAAW;IACX,WAAW;IACX,WAAW;IACX,kBAAkB;AACtB;;AAEA;IACI,UAAU;IACV,YAAY;IACZ,kBAAkB;AACtB;;AAEA;IACI,kBAAkB;IAClB,UAAU;IACV,YAAY;IACZ,QAAQ;IACR,SAAS;AACb","sourcesContent":[".loteria-card-element {\n    width: 23%;\n    height: 23%;\n    float: left;\n    padding: 1%;\n    position: relative;\n}\n\n.loteria-card-element-image {\n    width: 98%;\n    height: 100%;\n    position: absolute;\n}\n\n.loteria-card-element-image-indicator {\n    position: relative;\n    width: 50%;\n    height: auto;\n    top: 40%;\n    left: 30%;\n}"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/runtime/api.js":
 /*!*****************************************************!*\
   !*** ./node_modules/css-loader/dist/runtime/api.js ***!
@@ -30367,6 +30427,72 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 
 /***/ }),
 
+/***/ "./src/client/css/loteriaCard/card.css":
+/*!*********************************************!*\
+  !*** ./src/client/css/loteriaCard/card.css ***!
+  \*********************************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_card_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../../node_modules/css-loader/dist/cjs.js!./card.css */ "./node_modules/css-loader/dist/cjs.js!./src/client/css/loteriaCard/card.css");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_card_css__WEBPACK_IMPORTED_MODULE_1__.default, options);
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_card_css__WEBPACK_IMPORTED_MODULE_1__.default.locals || {});
+
+/***/ }),
+
+/***/ "./src/client/css/loteriaCard/element.css":
+/*!************************************************!*\
+  !*** ./src/client/css/loteriaCard/element.css ***!
+  \************************************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_element_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../../node_modules/css-loader/dist/cjs.js!./element.css */ "./node_modules/css-loader/dist/cjs.js!./src/client/css/loteriaCard/element.css");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_element_css__WEBPACK_IMPORTED_MODULE_1__.default, options);
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_element_css__WEBPACK_IMPORTED_MODULE_1__.default.locals || {});
+
+/***/ }),
+
 /***/ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js":
 /*!****************************************************************************!*\
   !*** ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
@@ -30648,10 +30774,10 @@ module.exports = function (list, options) {
 
 /***/ }),
 
-/***/ "./src/client/tsx/app.tsx":
-/*!********************************!*\
-  !*** ./src/client/tsx/app.tsx ***!
-  \********************************/
+/***/ "./src/client/tsx/loteriaCard/card.tsx":
+/*!*********************************************!*\
+  !*** ./src/client/tsx/loteriaCard/card.tsx ***!
+  \*********************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
 /*! CommonJS bailout: this is used directly at 2:17-21 */
@@ -30672,33 +30798,74 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.App = void 0;
 var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 var ReactDOM = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
-var ButtonsContainer = __webpack_require__(/*! ./initialMenu/buttonsContainer.tsx */ "./src/client/tsx/initialMenu/buttonsContainer.tsx").default;
-__webpack_require__(/*! ./../css/initialMenu/main.css */ "./src/client/css/initialMenu/main.css");
-var App = /** @class */ (function (_super) {
-    __extends(App, _super);
-    function App() {
-        return _super !== null && _super.apply(this, arguments) || this;
+var Element = __webpack_require__(/*! ./element.tsx */ "./src/client/tsx/loteriaCard/element.tsx").default;
+__webpack_require__(/*! ./../../css/loteriaCard/card.css */ "./src/client/css/loteriaCard/card.css");
+var Card = /** @class */ (function (_super) {
+    __extends(Card, _super);
+    function Card(props) {
+        var _this = _super.call(this, props) || this;
+        _this.renderElements = function (jsonCards) {
+            return jsonCards.map(function (card) {
+                return React.createElement(Element, { key: card.id, image: card.image });
+            });
+        };
+        _this.state = {
+            error: null,
+            isLoaded: false,
+            elements: []
+        };
+        return _this;
     }
-    App.prototype.render = function () {
-        return (React.createElement("div", { id: "main-container" },
-            React.createElement("img", { id: "initial-menu-background-image", src: "/images/loteriaBackground.jpg", alt: "" }),
-            React.createElement(ButtonsContainer, null)));
+    ;
+    Card.prototype.componentDidMount = function () {
+        var _this = this;
+        fetch("/service/card")
+            .then(function (res) { return res.json(); })
+            .then(function (result) {
+            _this.setState({
+                isLoaded: true,
+                elements: result
+            });
+        }, 
+        // Nota: es importante manejar errores aquí y no en 
+        // un bloque catch() para que no interceptemos errores
+        // de errores reales en los componentes.
+        function (error) {
+            _this.setState({
+                isLoaded: true,
+                error: error
+            });
+        });
     };
-    return App;
+    ;
+    Card.prototype.render = function () {
+        var _a = this.state, error = _a.error, isLoaded = _a.isLoaded, elements = _a.elements;
+        if (error) {
+            return React.createElement("div", null,
+                "Error: ",
+                error.message);
+        }
+        else if (!isLoaded) {
+            return React.createElement("div", null, "Loading...");
+        }
+        else {
+            return (React.createElement("div", { className: "loteria-card" }, this.renderElements(elements)));
+        }
+    };
+    ;
+    return Card;
 }(React.Component));
-exports.App = App;
-ReactDOM.render(React.createElement(App, null), document.getElementById('root'));
+exports.default = Card;
 
 
 /***/ }),
 
-/***/ "./src/client/tsx/initialMenu/buttonsContainer.tsx":
-/*!*********************************************************!*\
-  !*** ./src/client/tsx/initialMenu/buttonsContainer.tsx ***!
-  \*********************************************************/
+/***/ "./src/client/tsx/loteriaCard/element.tsx":
+/*!************************************************!*\
+  !*** ./src/client/tsx/loteriaCard/element.tsx ***!
+  \************************************************/
 /*! unknown exports (runtime-defined) */
 /*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
 /*! CommonJS bailout: this is used directly at 2:17-21 */
@@ -30721,17 +30888,130 @@ var __extends = (this && this.__extends) || (function () {
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 var ReactDOM = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
-var ButtonsContainer = /** @class */ (function (_super) {
-    __extends(ButtonsContainer, _super);
-    function ButtonsContainer() {
+__webpack_require__(/*! ./../../css/loteriaCard/element.css */ "./src/client/css/loteriaCard/element.css");
+var Element = /** @class */ (function (_super) {
+    __extends(Element, _super);
+    function Element(props) {
+        var _this = _super.call(this, props) || this;
+        _this.state = {
+            indicator: null
+        };
+        return _this;
+    }
+    ;
+    Element.prototype.render = function () {
+        return (React.createElement("div", { className: "loteria-card-element", onClick: this.handleClick.bind(this) },
+            React.createElement("img", { className: "loteria-card-element-image", src: this.props.image, alt: "" })));
+    };
+    Element.prototype.handleClick = function (event) {
+        this.addIndicator(event.target);
+    };
+    Element.prototype.addIndicator = function (elem) {
+        if (this.state.indicator) {
+            this.state.indicator.parentElement.removeChild(this.state.indicator);
+            this.state.indicator = null;
+        }
+        else {
+            var img = document.createElement('img');
+            img.className = 'loteria-card-element-image-indicator';
+            img.src = '/images/indicator/bean.png';
+            elem.parentElement.appendChild(img);
+            this.state.indicator = img;
+        }
+    };
+    return Element;
+}(React.Component));
+exports.default = Element;
+
+
+/***/ }),
+
+/***/ "./src/client/tsx/newGame/newGame.tsx":
+/*!********************************************!*\
+  !*** ./src/client/tsx/newGame/newGame.tsx ***!
+  \********************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/*! CommonJS bailout: this is used directly at 2:17-21 */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.NewGame = void 0;
+var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+var ReactDOM = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+var StartMenuContainer = __webpack_require__(/*! ./startMenu.tsx */ "./src/client/tsx/newGame/startMenu.tsx").default;
+var Card = __webpack_require__(/*! ./../loteriaCard/card.tsx */ "./src/client/tsx/loteriaCard/card.tsx").default;
+__webpack_require__(/*! ./../../css/initialMenu/main.css */ "./src/client/css/initialMenu/main.css");
+var NewGame = /** @class */ (function (_super) {
+    __extends(NewGame, _super);
+    function NewGame() {
         return _super !== null && _super.apply(this, arguments) || this;
     }
-    ButtonsContainer.prototype.render = function () {
-        return (React.createElement("div", { className: "initial-menu-buttons-container" },
-            React.createElement("button", { className: "initial-menu-button", id: "initial-menu-start-game", onClick: this.handleClick.bind(this) }, "Crear juego"),
-            React.createElement("button", { className: "initial-menu-button", id: "initial-menu-join-game", onClick: this.handleClick.bind(this) }, "Unirse a un juego")));
+    NewGame.prototype.render = function () {
+        return (React.createElement("div", { id: "main-container" },
+            React.createElement("img", { id: "initial-menu-background-image", src: "/images/loteriaBackground.jpg", alt: "" }),
+            React.createElement(Card, null),
+            React.createElement(StartMenuContainer, null)));
     };
-    ButtonsContainer.prototype.handleClick = function (event) {
+    return NewGame;
+}(React.Component));
+exports.NewGame = NewGame;
+ReactDOM.render(React.createElement(NewGame, null), document.getElementById('root'));
+
+
+/***/ }),
+
+/***/ "./src/client/tsx/newGame/startMenu.tsx":
+/*!**********************************************!*\
+  !*** ./src/client/tsx/newGame/startMenu.tsx ***!
+  \**********************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/*! CommonJS bailout: this is used directly at 2:17-21 */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+var ReactDOM = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+var StartMenuContainer = /** @class */ (function (_super) {
+    __extends(StartMenuContainer, _super);
+    function StartMenuContainer() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    StartMenuContainer.prototype.render = function () {
+        return (React.createElement("div", { className: "start-game-menu-buttons-container" },
+            React.createElement("button", { className: "initial-menu-button", id: "initial-menu-initialize-game", onClick: this.handleClick.bind(this) }, "Iniciar"),
+            React.createElement("button", { className: "initial-menu-button", id: "initial-menu-end-game", onClick: this.handleClick.bind(this) }, "Terminar")));
+    };
+    StartMenuContainer.prototype.handleClick = function (event) {
         var elem = event.target;
         if (elem.id == "initial-menu-start-game") {
             console.log("pressed start game");
@@ -30740,9 +31020,9 @@ var ButtonsContainer = /** @class */ (function (_super) {
             console.log("pressed join game");
         }
     };
-    return ButtonsContainer;
+    return StartMenuContainer;
 }(React.Component));
-exports.default = ButtonsContainer;
+exports.default = StartMenuContainer;
 
 
 /***/ })
@@ -30817,7 +31097,7 @@ exports.default = ButtonsContainer;
 /******/ 	// startup
 /******/ 	// Load entry module
 /******/ 	// This entry module is referenced by other modules so it can't be inlined
-/******/ 	__webpack_require__("./src/client/tsx/app.tsx");
+/******/ 	__webpack_require__("./src/client/tsx/newGame/newGame.tsx");
 /******/ })()
 ;
-//# sourceMappingURL=app-bundle.js.map
+//# sourceMappingURL=new_game-bundle.js.map
