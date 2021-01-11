@@ -63,6 +63,7 @@ io.on("connection", function (socket) {
   socket.on("new user", function (data) {
     socket.userId = data;
     activeUsers.add(data);
+    console.log("nuevo user: "+data);
     io.emit("new user", [...activeUsers]);
   });
 

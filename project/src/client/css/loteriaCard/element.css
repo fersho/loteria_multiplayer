@@ -1,8 +1,8 @@
 .loteria-card-element {
-    width: 23%;
-    height: 23%;
+    width: 24.6%;
+    height: 24.7%;
     float: left;
-    padding: 1%;
+    margin: 0.2%;
     position: relative;
 }
 

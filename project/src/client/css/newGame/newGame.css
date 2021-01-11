@@ -1,0 +1,14 @@
+#menu-container {
+    position: absolute;
+    top: 0;
+    margin: 1%;
+    width: 99%;
+}
+
+.loteria-card {
+    float: left;
+}
+
+.start-game-menu-buttons-container {
+    float: right;
+}

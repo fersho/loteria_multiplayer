@@ -3,6 +3,7 @@
     height: 120vw;
     margin: auto;
     margin-top: 19%;
+    background-color: black;
 }
 
 @media only screen and (max-width: 600px) {
