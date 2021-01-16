@@ -6,10 +6,6 @@
 /*!***********************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./src/client/css/initialMenu/main.css ***!
   \***********************************************************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_exports__, __webpack_require__.r, module.id, __webpack_require__.d, __webpack_require__.*, module */
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -36,10 +32,6 @@ ___CSS_LOADER_EXPORT___.push([module.id, "#main-container {\n    width: 100vw;\n
 /*!***********************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./src/client/css/loteriaCard/card.css ***!
   \***********************************************************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_exports__, __webpack_require__.r, module.id, __webpack_require__.d, __webpack_require__.*, module */
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -66,10 +58,6 @@ ___CSS_LOADER_EXPORT___.push([module.id, ".loteria-card {\n    width: 70vw;\n   
 /*!**************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./src/client/css/loteriaCard/element.css ***!
   \**************************************************************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_exports__, __webpack_require__.r, module.id, __webpack_require__.d, __webpack_require__.*, module */
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -96,10 +84,6 @@ ___CSS_LOADER_EXPORT___.push([module.id, ".loteria-card-element {\n    width: 24
 /*!**********************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./src/client/css/newGame/newGame.css ***!
   \**********************************************************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_exports__, __webpack_require__.r, module.id, __webpack_require__.d, __webpack_require__.*, module */
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -126,9 +110,6 @@ ___CSS_LOADER_EXPORT___.push([module.id, "#menu-container {\n    position: absol
 /*!*****************************************************!*\
   !*** ./node_modules/css-loader/dist/runtime/api.js ***!
   \*****************************************************/
-/*! unknown exports (runtime-defined) */
-/*! runtime requirements: module */
-/*! CommonJS bailout: module.exports is used directly at 9:0-14 */
 /***/ ((module) => {
 
 
@@ -204,9 +185,6 @@ module.exports = function (cssWithMappingToString) {
 /*!************************************************************************!*\
   !*** ./node_modules/css-loader/dist/runtime/cssWithMappingToString.js ***!
   \************************************************************************/
-/*! unknown exports (runtime-defined) */
-/*! runtime requirements: module */
-/*! CommonJS bailout: module.exports is used directly at 15:0-14 */
 /***/ ((module) => {
 
 
@@ -248,9 +226,6 @@ module.exports = function cssWithMappingToString(item) {
 /*!*********************************************!*\
   !*** ./node_modules/object-assign/index.js ***!
   \*********************************************/
-/*! unknown exports (runtime-defined) */
-/*! runtime requirements: module */
-/*! CommonJS bailout: module.exports is used directly at 65:0-14 */
 /***/ ((module) => {
 
 /*
@@ -351,20 +326,6 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 /*!*************************************************************!*\
   !*** ./node_modules/react-dom/cjs/react-dom.development.js ***!
   \*************************************************************/
-/*! default exports */
-/*! export __SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export createPortal [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export findDOMNode [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export flushSync [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export hydrate [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export render [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export unmountComponentAtNode [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export unstable_batchedUpdates [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export unstable_createPortal [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export unstable_renderSubtreeIntoContainer [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export version [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_exports__, __webpack_require__ */
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 /** @license React v17.0.1
@@ -26632,20 +26593,6 @@ exports.version = ReactVersion;
 /*!*****************************************!*\
   !*** ./node_modules/react-dom/index.js ***!
   \*****************************************/
-/*! dynamic exports */
-/*! export __SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-dom/cjs/react-dom.development.js .__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED */
-/*! export createPortal [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-dom/cjs/react-dom.development.js .createPortal */
-/*! export findDOMNode [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-dom/cjs/react-dom.development.js .findDOMNode */
-/*! export flushSync [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-dom/cjs/react-dom.development.js .flushSync */
-/*! export hydrate [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-dom/cjs/react-dom.development.js .hydrate */
-/*! export render [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-dom/cjs/react-dom.development.js .render */
-/*! export unmountComponentAtNode [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-dom/cjs/react-dom.development.js .unmountComponentAtNode */
-/*! export unstable_batchedUpdates [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-dom/cjs/react-dom.development.js .unstable_batchedUpdates */
-/*! export unstable_createPortal [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-dom/cjs/react-dom.development.js .unstable_createPortal */
-/*! export unstable_renderSubtreeIntoContainer [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-dom/cjs/react-dom.development.js .unstable_renderSubtreeIntoContainer */
-/*! export version [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react-dom/cjs/react-dom.development.js .version */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: module, __webpack_require__ */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 
@@ -26689,37 +26636,6 @@ if (false) {} else {
 /*!*****************************************************!*\
   !*** ./node_modules/react/cjs/react.development.js ***!
   \*****************************************************/
-/*! default exports */
-/*! export Children [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export Component [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export Fragment [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export Profiler [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export PureComponent [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export StrictMode [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export Suspense [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export __SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export cloneElement [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export createContext [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export createElement [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export createFactory [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export createRef [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export forwardRef [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export isValidElement [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export lazy [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export memo [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export useCallback [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export useContext [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export useDebugValue [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export useEffect [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export useImperativeHandle [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export useLayoutEffect [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export useMemo [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export useReducer [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export useRef [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export useState [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export version [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_exports__, __webpack_require__ */
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 /** @license React v17.0.1
@@ -29063,37 +28979,6 @@ exports.version = ReactVersion;
 /*!*************************************!*\
   !*** ./node_modules/react/index.js ***!
   \*************************************/
-/*! dynamic exports */
-/*! export Children [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.development.js .Children */
-/*! export Component [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.development.js .Component */
-/*! export Fragment [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.development.js .Fragment */
-/*! export Profiler [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.development.js .Profiler */
-/*! export PureComponent [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.development.js .PureComponent */
-/*! export StrictMode [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.development.js .StrictMode */
-/*! export Suspense [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.development.js .Suspense */
-/*! export __SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.development.js .__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED */
-/*! export cloneElement [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.development.js .cloneElement */
-/*! export createContext [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.development.js .createContext */
-/*! export createElement [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.development.js .createElement */
-/*! export createFactory [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.development.js .createFactory */
-/*! export createRef [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.development.js .createRef */
-/*! export forwardRef [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.development.js .forwardRef */
-/*! export isValidElement [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.development.js .isValidElement */
-/*! export lazy [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.development.js .lazy */
-/*! export memo [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.development.js .memo */
-/*! export useCallback [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.development.js .useCallback */
-/*! export useContext [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.development.js .useContext */
-/*! export useDebugValue [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.development.js .useDebugValue */
-/*! export useEffect [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.development.js .useEffect */
-/*! export useImperativeHandle [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.development.js .useImperativeHandle */
-/*! export useLayoutEffect [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.development.js .useLayoutEffect */
-/*! export useMemo [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.development.js .useMemo */
-/*! export useReducer [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.development.js .useReducer */
-/*! export useRef [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.development.js .useRef */
-/*! export useState [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.development.js .useState */
-/*! export version [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/react/cjs/react.development.js .version */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: module, __webpack_require__ */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 
@@ -29109,18 +28994,6 @@ if (false) {} else {
 /*!*********************************************************************!*\
   !*** ./node_modules/scheduler/cjs/scheduler-tracing.development.js ***!
   \*********************************************************************/
-/*! default exports */
-/*! export __interactionsRef [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export __subscriberRef [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export unstable_clear [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export unstable_getCurrent [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export unstable_getThreadID [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export unstable_subscribe [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export unstable_trace [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export unstable_unsubscribe [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export unstable_wrap [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_exports__ */
 /***/ ((__unused_webpack_module, exports) => {
 
 /** @license React v0.20.1
@@ -29478,38 +29351,6 @@ exports.unstable_wrap = unstable_wrap;
 /*!*************************************************************!*\
   !*** ./node_modules/scheduler/cjs/scheduler.development.js ***!
   \*************************************************************/
-/*! default exports */
-/*! export unstable_IdlePriority [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export unstable_ImmediatePriority [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export unstable_LowPriority [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export unstable_NormalPriority [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export unstable_Profiling [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export unstable_UserBlockingPriority [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export unstable_cancelCallback [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export unstable_continueExecution [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export unstable_forceFrameRate [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export unstable_getCurrentPriorityLevel [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export unstable_getFirstCallbackNode [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export unstable_next [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export unstable_now [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export unstable_pauseExecution [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export unstable_requestPaint [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export unstable_runWithPriority [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export unstable_scheduleCallback [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export unstable_shouldYield [provided] [no usage info] [missing usage info prevents renaming] */
-/*! export unstable_wrapCallback [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_exports__ */
-/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 52:26-46 */
-/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 125:13-33 */
-/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 149:24-44 */
-/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 193:15-35 */
-/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 548:28-48 */
-/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 565:25-45 */
-/*! CommonJS bailout: exports.unstable_shouldYield(...) prevents optimization as exports is passed as call context at 578:74-102 */
-/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 591:20-40 */
-/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 695:20-40 */
-/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 804:24-44 */
 /***/ ((__unused_webpack_module, exports) => {
 
 /** @license React v0.20.1
@@ -30364,28 +30205,6 @@ exports.unstable_wrapCallback = unstable_wrapCallback;
 /*!*****************************************!*\
   !*** ./node_modules/scheduler/index.js ***!
   \*****************************************/
-/*! dynamic exports */
-/*! export unstable_IdlePriority [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/scheduler/cjs/scheduler.development.js .unstable_IdlePriority */
-/*! export unstable_ImmediatePriority [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/scheduler/cjs/scheduler.development.js .unstable_ImmediatePriority */
-/*! export unstable_LowPriority [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/scheduler/cjs/scheduler.development.js .unstable_LowPriority */
-/*! export unstable_NormalPriority [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/scheduler/cjs/scheduler.development.js .unstable_NormalPriority */
-/*! export unstable_Profiling [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/scheduler/cjs/scheduler.development.js .unstable_Profiling */
-/*! export unstable_UserBlockingPriority [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/scheduler/cjs/scheduler.development.js .unstable_UserBlockingPriority */
-/*! export unstable_cancelCallback [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/scheduler/cjs/scheduler.development.js .unstable_cancelCallback */
-/*! export unstable_continueExecution [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/scheduler/cjs/scheduler.development.js .unstable_continueExecution */
-/*! export unstable_forceFrameRate [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/scheduler/cjs/scheduler.development.js .unstable_forceFrameRate */
-/*! export unstable_getCurrentPriorityLevel [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/scheduler/cjs/scheduler.development.js .unstable_getCurrentPriorityLevel */
-/*! export unstable_getFirstCallbackNode [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/scheduler/cjs/scheduler.development.js .unstable_getFirstCallbackNode */
-/*! export unstable_next [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/scheduler/cjs/scheduler.development.js .unstable_next */
-/*! export unstable_now [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/scheduler/cjs/scheduler.development.js .unstable_now */
-/*! export unstable_pauseExecution [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/scheduler/cjs/scheduler.development.js .unstable_pauseExecution */
-/*! export unstable_requestPaint [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/scheduler/cjs/scheduler.development.js .unstable_requestPaint */
-/*! export unstable_runWithPriority [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/scheduler/cjs/scheduler.development.js .unstable_runWithPriority */
-/*! export unstable_scheduleCallback [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/scheduler/cjs/scheduler.development.js .unstable_scheduleCallback */
-/*! export unstable_shouldYield [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/scheduler/cjs/scheduler.development.js .unstable_shouldYield */
-/*! export unstable_wrapCallback [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/scheduler/cjs/scheduler.development.js .unstable_wrapCallback */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: module, __webpack_require__ */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 
@@ -30401,18 +30220,6 @@ if (false) {} else {
 /*!*******************************************!*\
   !*** ./node_modules/scheduler/tracing.js ***!
   \*******************************************/
-/*! dynamic exports */
-/*! export __interactionsRef [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/scheduler/cjs/scheduler-tracing.development.js .__interactionsRef */
-/*! export __subscriberRef [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/scheduler/cjs/scheduler-tracing.development.js .__subscriberRef */
-/*! export unstable_clear [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/scheduler/cjs/scheduler-tracing.development.js .unstable_clear */
-/*! export unstable_getCurrent [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/scheduler/cjs/scheduler-tracing.development.js .unstable_getCurrent */
-/*! export unstable_getThreadID [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/scheduler/cjs/scheduler-tracing.development.js .unstable_getThreadID */
-/*! export unstable_subscribe [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/scheduler/cjs/scheduler-tracing.development.js .unstable_subscribe */
-/*! export unstable_trace [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/scheduler/cjs/scheduler-tracing.development.js .unstable_trace */
-/*! export unstable_unsubscribe [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/scheduler/cjs/scheduler-tracing.development.js .unstable_unsubscribe */
-/*! export unstable_wrap [provided] [no usage info] [provision prevents renaming (no use info)] -> ./node_modules/scheduler/cjs/scheduler-tracing.development.js .unstable_wrap */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: module, __webpack_require__ */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 
@@ -30428,10 +30235,6 @@ if (false) {} else {
 /*!*********************************************!*\
   !*** ./src/client/css/initialMenu/main.css ***!
   \*********************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -30461,10 +30264,6 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 /*!*********************************************!*\
   !*** ./src/client/css/loteriaCard/card.css ***!
   \*********************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -30494,10 +30293,6 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 /*!************************************************!*\
   !*** ./src/client/css/loteriaCard/element.css ***!
   \************************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -30527,10 +30322,6 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 /*!********************************************!*\
   !*** ./src/client/css/newGame/newGame.css ***!
   \********************************************/
-/*! namespace exports */
-/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
-/*! other exports [not provided] [no usage info] */
-/*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -30560,9 +30351,6 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 /*!****************************************************************************!*\
   !*** ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
   \****************************************************************************/
-/*! unknown exports (runtime-defined) */
-/*! runtime requirements: module, __webpack_require__.nc, __webpack_require__.* */
-/*! CommonJS bailout: module.exports is used directly at 230:0-14 */
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 
@@ -30841,9 +30629,6 @@ module.exports = function (list, options) {
 /*!*********************************************!*\
   !*** ./src/client/tsx/loteriaCard/card.tsx ***!
   \*********************************************/
-/*! unknown exports (runtime-defined) */
-/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
-/*! CommonJS bailout: this is used directly at 2:17-21 */
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 
@@ -30929,9 +30714,6 @@ exports.default = Card;
 /*!************************************************!*\
   !*** ./src/client/tsx/loteriaCard/element.tsx ***!
   \************************************************/
-/*! unknown exports (runtime-defined) */
-/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
-/*! CommonJS bailout: this is used directly at 2:17-21 */
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 
@@ -30993,9 +30775,6 @@ exports.default = Element;
 /*!********************************************!*\
   !*** ./src/client/tsx/newGame/newGame.tsx ***!
   \********************************************/
-/*! unknown exports (runtime-defined) */
-/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
-/*! CommonJS bailout: this is used directly at 2:17-21 */
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 
@@ -31044,9 +30823,6 @@ ReactDOM.render(React.createElement(NewGame, null), document.getElementById('roo
 /*!**********************************************!*\
   !*** ./src/client/tsx/newGame/startMenu.tsx ***!
   \**********************************************/
-/*! unknown exports (runtime-defined) */
-/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
-/*! CommonJS bailout: this is used directly at 2:17-21 */
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 
