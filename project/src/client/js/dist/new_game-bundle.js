@@ -30792,7 +30792,6 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.NewGame = void 0;
 var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 var ReactDOM = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
 var StartMenuContainer = __webpack_require__(/*! ./startMenu.tsx */ "./src/client/tsx/newGame/startMenu.tsx").default;
@@ -30805,16 +30804,13 @@ var NewGame = /** @class */ (function (_super) {
         return _super !== null && _super.apply(this, arguments) || this;
     }
     NewGame.prototype.render = function () {
-        return (React.createElement("div", { id: "main-container" },
-            React.createElement("img", { id: "initial-menu-background-image", src: "/images/loteriaBackground.jpg", alt: "" }),
-            React.createElement("div", { id: "menu-container" },
-                React.createElement(Card, null),
-                React.createElement(StartMenuContainer, null))));
+        return (React.createElement("div", { id: "menu-container" },
+            React.createElement(Card, null),
+            React.createElement(StartMenuContainer, null)));
     };
     return NewGame;
 }(React.Component));
-exports.NewGame = NewGame;
-ReactDOM.render(React.createElement(NewGame, null), document.getElementById('root'));
+exports.default = NewGame;
 
 
 /***/ }),

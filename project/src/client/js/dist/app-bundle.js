@@ -106,6 +106,114 @@ ___CSS_LOADER_EXPORT___.push([module.id, "#main-container {\n    width: 100vw;\n
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js!./src/client/css/loteriaCard/card.css":
+/*!***********************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./src/client/css/loteriaCard/card.css ***!
+  \***********************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/cssWithMappingToString.js */ "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default()));
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, ".loteria-card {\n    width: 70vw;\n    height: 120vw;\n    margin: auto;\n    margin-top: 19%;\n    background-color: black;\n}\n\n@media only screen and (max-width: 600px) {\n\n}\n\n/* Small devices (portrait tablets and large phones, 600px and up) */\n@media only screen and (min-width: 600px) {\n\n}\n\n/* Medium devices (landscape tablets, 768px and up) */\n@media only screen and (min-width: 768px) {\n\n}\n\n/* Large devices (laptops/desktops, 992px and up) */\n@media only screen and (min-width: 992px) {\n    .loteria-card {\n        width: 30vw;\n        height: 45vw;\n        margin-left: 10%;\n        margin-top: 3%;\n    }\n\n    width: 20vw;\n    height: 30vw;\n    position: fixed;\n    top: 24%;\n    right: 20%;\n    border-color: black;\n    border-width: 3px;\n    border-style: solid;\n}\n\n/* Extra large devices (large laptops and desktops, 1200px and up) */\n@media only screen and (min-width: 1200px) {\n\n}", "",{"version":3,"sources":["webpack://./src/client/css/loteriaCard/card.css"],"names":[],"mappings":"AAAA;IACI,WAAW;IACX,aAAa;IACb,YAAY;IACZ,eAAe;IACf,uBAAuB;AAC3B;;AAEA;;AAEA;;AAEA,oEAAoE;AACpE;;AAEA;;AAEA,qDAAqD;AACrD;;AAEA;;AAEA,mDAAmD;AACnD;IACI;QACI,WAAW;QACX,YAAY;QACZ,gBAAgB;QAChB,cAAc;IAClB;;IAEA,WAAW;IACX,YAAY;IACZ,eAAe;IACf,QAAQ;IACR,UAAU;IACV,mBAAmB;IACnB,iBAAiB;IACjB,mBAAmB;AACvB;;AAEA,oEAAoE;AACpE;;AAEA","sourcesContent":[".loteria-card {\n    width: 70vw;\n    height: 120vw;\n    margin: auto;\n    margin-top: 19%;\n    background-color: black;\n}\n\n@media only screen and (max-width: 600px) {\n\n}\n\n/* Small devices (portrait tablets and large phones, 600px and up) */\n@media only screen and (min-width: 600px) {\n\n}\n\n/* Medium devices (landscape tablets, 768px and up) */\n@media only screen and (min-width: 768px) {\n\n}\n\n/* Large devices (laptops/desktops, 992px and up) */\n@media only screen and (min-width: 992px) {\n    .loteria-card {\n        width: 30vw;\n        height: 45vw;\n        margin-left: 10%;\n        margin-top: 3%;\n    }\n\n    width: 20vw;\n    height: 30vw;\n    position: fixed;\n    top: 24%;\n    right: 20%;\n    border-color: black;\n    border-width: 3px;\n    border-style: solid;\n}\n\n/* Extra large devices (large laptops and desktops, 1200px and up) */\n@media only screen and (min-width: 1200px) {\n\n}"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./src/client/css/loteriaCard/element.css":
+/*!**************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./src/client/css/loteriaCard/element.css ***!
+  \**************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/cssWithMappingToString.js */ "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default()));
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, ".loteria-card-element {\n    width: 24.6%;\n    height: 24.7%;\n    float: left;\n    margin: 0.2%;\n    position: relative;\n}\n\n.loteria-card-element-image {\n    width: 98%;\n    height: 100%;\n    position: absolute;\n}\n\n.loteria-card-element-image-indicator {\n    position: relative;\n    width: 50%;\n    height: auto;\n    top: 40%;\n    left: 30%;\n}", "",{"version":3,"sources":["webpack://./src/client/css/loteriaCard/element.css"],"names":[],"mappings":"AAAA;IACI,YAAY;IACZ,aAAa;IACb,WAAW;IACX,YAAY;IACZ,kBAAkB;AACtB;;AAEA;IACI,UAAU;IACV,YAAY;IACZ,kBAAkB;AACtB;;AAEA;IACI,kBAAkB;IAClB,UAAU;IACV,YAAY;IACZ,QAAQ;IACR,SAAS;AACb","sourcesContent":[".loteria-card-element {\n    width: 24.6%;\n    height: 24.7%;\n    float: left;\n    margin: 0.2%;\n    position: relative;\n}\n\n.loteria-card-element-image {\n    width: 98%;\n    height: 100%;\n    position: absolute;\n}\n\n.loteria-card-element-image-indicator {\n    position: relative;\n    width: 50%;\n    height: auto;\n    top: 40%;\n    left: 30%;\n}"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./src/client/css/newGame/newGame.css":
+/*!**********************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./src/client/css/newGame/newGame.css ***!
+  \**********************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/cssWithMappingToString.js */ "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default()));
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "#menu-container {\n    position: absolute;\n    top: 0;\n    margin: 1%;\n    width: 99%;\n}\n\n.loteria-card {\n    float: left;\n}\n\n.start-game-menu-buttons-container {\n    float: right;\n}", "",{"version":3,"sources":["webpack://./src/client/css/newGame/newGame.css"],"names":[],"mappings":"AAAA;IACI,kBAAkB;IAClB,MAAM;IACN,UAAU;IACV,UAAU;AACd;;AAEA;IACI,WAAW;AACf;;AAEA;IACI,YAAY;AAChB","sourcesContent":["#menu-container {\n    position: absolute;\n    top: 0;\n    margin: 1%;\n    width: 99%;\n}\n\n.loteria-card {\n    float: left;\n}\n\n.start-game-menu-buttons-container {\n    float: right;\n}"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./src/client/css/pages/index.css":
+/*!******************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./src/client/css/pages/index.css ***!
+  \******************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/cssWithMappingToString.js */ "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default()));
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, ".form__label {\n    font-family: 'Roboto', sans-serif;\n    font-size: 1.2rem;\n    margin-left: 4rem;\n    margin-top: 0.7rem;\n    display: block;\n    transition: all 0.3s;\n    transform: translateY(0rem);\n  }\n  \n  .form__input {\n    font-family: 'Roboto', sans-serif;\n    color: #333;\n    font-size: 1.2rem;\n    margin-left: 50px;\n    padding: 1.5rem 2rem;\n    border-radius: 0.2rem;\n    background-color: rgb(255, 255, 255);\n    border: none;\n    width: 435px;\n    display: block;\n    border-bottom: 0.3rem solid transparent;\n    transition: all 0.3s;\n  }\n  \n  .form__input:placeholder-shown + .form__label {\n    opacity: 0;\n    visibility: hidden;\n    -webkit-transform: translateY(-4rem);\n    transform: translateY(-4rem);\n  }", "",{"version":3,"sources":["webpack://./src/client/css/pages/index.css"],"names":[],"mappings":"AAAA;IACI,iCAAiC;IACjC,iBAAiB;IACjB,iBAAiB;IACjB,kBAAkB;IAClB,cAAc;IACd,oBAAoB;IACpB,2BAA2B;EAC7B;;EAEA;IACE,iCAAiC;IACjC,WAAW;IACX,iBAAiB;IACjB,iBAAiB;IACjB,oBAAoB;IACpB,qBAAqB;IACrB,oCAAoC;IACpC,YAAY;IACZ,YAAY;IACZ,cAAc;IACd,uCAAuC;IACvC,oBAAoB;EACtB;;EAEA;IACE,UAAU;IACV,kBAAkB;IAClB,oCAAoC;IACpC,4BAA4B;EAC9B","sourcesContent":[".form__label {\n    font-family: 'Roboto', sans-serif;\n    font-size: 1.2rem;\n    margin-left: 4rem;\n    margin-top: 0.7rem;\n    display: block;\n    transition: all 0.3s;\n    transform: translateY(0rem);\n  }\n  \n  .form__input {\n    font-family: 'Roboto', sans-serif;\n    color: #333;\n    font-size: 1.2rem;\n    margin-left: 50px;\n    padding: 1.5rem 2rem;\n    border-radius: 0.2rem;\n    background-color: rgb(255, 255, 255);\n    border: none;\n    width: 435px;\n    display: block;\n    border-bottom: 0.3rem solid transparent;\n    transition: all 0.3s;\n  }\n  \n  .form__input:placeholder-shown + .form__label {\n    opacity: 0;\n    visibility: hidden;\n    -webkit-transform: translateY(-4rem);\n    transform: translateY(-4rem);\n  }"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/runtime/api.js":
 /*!*****************************************************!*\
   !*** ./node_modules/css-loader/dist/runtime/api.js ***!
@@ -40299,6 +40407,126 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 
 /***/ }),
 
+/***/ "./src/client/css/loteriaCard/card.css":
+/*!*********************************************!*\
+  !*** ./src/client/css/loteriaCard/card.css ***!
+  \*********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_card_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../../node_modules/css-loader/dist/cjs.js!./card.css */ "./node_modules/css-loader/dist/cjs.js!./src/client/css/loteriaCard/card.css");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_card_css__WEBPACK_IMPORTED_MODULE_1__.default, options);
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_card_css__WEBPACK_IMPORTED_MODULE_1__.default.locals || {});
+
+/***/ }),
+
+/***/ "./src/client/css/loteriaCard/element.css":
+/*!************************************************!*\
+  !*** ./src/client/css/loteriaCard/element.css ***!
+  \************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_element_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../../node_modules/css-loader/dist/cjs.js!./element.css */ "./node_modules/css-loader/dist/cjs.js!./src/client/css/loteriaCard/element.css");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_element_css__WEBPACK_IMPORTED_MODULE_1__.default, options);
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_element_css__WEBPACK_IMPORTED_MODULE_1__.default.locals || {});
+
+/***/ }),
+
+/***/ "./src/client/css/newGame/newGame.css":
+/*!********************************************!*\
+  !*** ./src/client/css/newGame/newGame.css ***!
+  \********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_newGame_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../../node_modules/css-loader/dist/cjs.js!./newGame.css */ "./node_modules/css-loader/dist/cjs.js!./src/client/css/newGame/newGame.css");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_newGame_css__WEBPACK_IMPORTED_MODULE_1__.default, options);
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_newGame_css__WEBPACK_IMPORTED_MODULE_1__.default.locals || {});
+
+/***/ }),
+
+/***/ "./src/client/css/pages/index.css":
+/*!****************************************!*\
+  !*** ./src/client/css/pages/index.css ***!
+  \****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_index_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../../node_modules/css-loader/dist/cjs.js!./index.css */ "./node_modules/css-loader/dist/cjs.js!./src/client/css/pages/index.css");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_index_css__WEBPACK_IMPORTED_MODULE_1__.default, options);
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_index_css__WEBPACK_IMPORTED_MODULE_1__.default.locals || {});
+
+/***/ }),
+
 /***/ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js":
 /*!****************************************************************************!*\
   !*** ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
@@ -40668,6 +40896,7 @@ var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 var ReactDOM = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
 var _a = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js"), BrowserRouter = _a.BrowserRouter, Switch = _a.Switch, Route = _a.Route, Link = _a.Link, useRouteMatch = _a.useRouteMatch, useParams = _a.useParams;
 var Router = BrowserRouter;
+var NewGame = __webpack_require__(/*! ./newGame/newGame.tsx */ "./src/client/tsx/newGame/newGame.tsx").default;
 var Index = __webpack_require__(/*! ./pages/index/index.tsx */ "./src/client/tsx/pages/index/index.tsx").default;
 __webpack_require__(/*! ./../css/initialMenu/main.css */ "./src/client/css/initialMenu/main.css");
 var App = /** @class */ (function (_super) {
@@ -40677,13 +40906,11 @@ var App = /** @class */ (function (_super) {
     }
     App.prototype.render = function () {
         return (React.createElement(Router, null,
-            React.createElement(Switch, null,
-                React.createElement(Route, { path: "/" },
-                    React.createElement(Index, null)),
-                React.createElement(Route, { path: "/users" },
-                    React.createElement(Index, null)),
-                React.createElement(Route, { path: "/" },
-                    React.createElement(Index, null)))));
+            React.createElement("div", { id: "main-container" },
+                React.createElement("img", { id: "initial-menu-background-image", src: "/images/loteriaBackground.jpg", alt: "" }),
+                React.createElement(Switch, null,
+                    React.createElement(Route, { exact: true, path: "/", component: Index }),
+                    React.createElement(Route, { path: "/new-game", component: NewGame })))));
     };
     return App;
 }(React.Component));
@@ -40693,10 +40920,10 @@ ReactDOM.render(React.createElement(App, null), document.getElementById('root'))
 
 /***/ }),
 
-/***/ "./src/client/tsx/pages/index/buttonsContainer.tsx":
-/*!*********************************************************!*\
-  !*** ./src/client/tsx/pages/index/buttonsContainer.tsx ***!
-  \*********************************************************/
+/***/ "./src/client/tsx/loteriaCard/card.tsx":
+/*!*********************************************!*\
+  !*** ./src/client/tsx/loteriaCard/card.tsx ***!
+  \*********************************************/
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 "use strict";
@@ -40717,59 +40944,221 @@ var __extends = (this && this.__extends) || (function () {
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 var ReactDOM = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
-var socket = __webpack_require__(/*! ./../../../../../node_modules/socket.io/client-dist/socket.io.js */ "./node_modules/socket.io/client-dist/socket.io.js")();
-var userName = "";
-var ButtonsContainer = /** @class */ (function (_super) {
-    __extends(ButtonsContainer, _super);
-    function ButtonsContainer() {
-        var _this = _super.call(this) || this;
-        _this.nameField = React.createRef();
+var Element = __webpack_require__(/*! ./element.tsx */ "./src/client/tsx/loteriaCard/element.tsx").default;
+__webpack_require__(/*! ./../../css/loteriaCard/card.css */ "./src/client/css/loteriaCard/card.css");
+var Card = /** @class */ (function (_super) {
+    __extends(Card, _super);
+    function Card(props) {
+        var _this = _super.call(this, props) || this;
+        _this.renderElements = function (jsonCards) {
+            return jsonCards.map(function (card) {
+                return React.createElement(Element, { key: card.id, image: card.image });
+            });
+        };
+        _this.state = {
+            error: null,
+            isLoaded: false,
+            elements: []
+        };
         return _this;
     }
-    ButtonsContainer.prototype.render = function () {
-        return (React.createElement("div", { className: "initial-menu-buttons-container" },
-            React.createElement("label", { htmlFor: "" }, "Nombre:"),
-            React.createElement("input", { ref: this.nameField, id: "user-name", type: "text" }),
-            React.createElement("button", { className: "initial-menu-button", id: "initial-menu-start-game", onClick: this.handleClick.bind(this) }, "Crear juego"),
-            React.createElement("button", { className: "initial-menu-button", id: "initial-menu-join-game", onClick: this.handleClick.bind(this) }, "Unirse a un juego")));
+    ;
+    Card.prototype.componentDidMount = function () {
+        var _this = this;
+        fetch("/service/card")
+            .then(function (res) { return res.json(); })
+            .then(function (result) {
+            _this.setState({
+                isLoaded: true,
+                elements: result
+            });
+        }, 
+        // Nota: es importante manejar errores aquí y no en 
+        // un bloque catch() para que no interceptemos errores
+        // de errores reales en los componentes.
+        function (error) {
+            _this.setState({
+                isLoaded: true,
+                error: error
+            });
+        });
     };
-    ButtonsContainer.prototype.handleClick = function (event) {
+    ;
+    Card.prototype.render = function () {
+        var _a = this.state, error = _a.error, isLoaded = _a.isLoaded, elements = _a.elements;
+        if (error) {
+            return React.createElement("div", null,
+                "Error: ",
+                error.message);
+        }
+        else if (!isLoaded) {
+            return React.createElement("div", null, "Loading...");
+        }
+        else {
+            return (React.createElement("div", { className: "loteria-card" }, this.renderElements(elements)));
+        }
+    };
+    ;
+    return Card;
+}(React.Component));
+exports.default = Card;
+
+
+/***/ }),
+
+/***/ "./src/client/tsx/loteriaCard/element.tsx":
+/*!************************************************!*\
+  !*** ./src/client/tsx/loteriaCard/element.tsx ***!
+  \************************************************/
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+"use strict";
+
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+var ReactDOM = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+__webpack_require__(/*! ./../../css/loteriaCard/element.css */ "./src/client/css/loteriaCard/element.css");
+var Element = /** @class */ (function (_super) {
+    __extends(Element, _super);
+    function Element(props) {
+        var _this = _super.call(this, props) || this;
+        _this.state = {
+            indicator: null
+        };
+        return _this;
+    }
+    ;
+    Element.prototype.render = function () {
+        return (React.createElement("div", { className: "loteria-card-element", onClick: this.handleClick.bind(this) },
+            React.createElement("img", { className: "loteria-card-element-image", src: this.props.image, alt: "" })));
+    };
+    Element.prototype.handleClick = function (event) {
+        this.addIndicator(event.target);
+    };
+    Element.prototype.addIndicator = function (elem) {
+        if (this.state.indicator) {
+            this.state.indicator.parentElement.removeChild(this.state.indicator);
+            this.state.indicator = null;
+        }
+        else {
+            var img = document.createElement('img');
+            img.className = 'loteria-card-element-image-indicator';
+            img.src = '/images/indicator/bean.png';
+            elem.parentElement.appendChild(img);
+            this.state.indicator = img;
+        }
+    };
+    return Element;
+}(React.Component));
+exports.default = Element;
+
+
+/***/ }),
+
+/***/ "./src/client/tsx/newGame/newGame.tsx":
+/*!********************************************!*\
+  !*** ./src/client/tsx/newGame/newGame.tsx ***!
+  \********************************************/
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+"use strict";
+
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+var ReactDOM = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+var StartMenuContainer = __webpack_require__(/*! ./startMenu.tsx */ "./src/client/tsx/newGame/startMenu.tsx").default;
+var Card = __webpack_require__(/*! ./../loteriaCard/card.tsx */ "./src/client/tsx/loteriaCard/card.tsx").default;
+__webpack_require__(/*! ./../../css/initialMenu/main.css */ "./src/client/css/initialMenu/main.css");
+__webpack_require__(/*! ./../../css/newGame/newGame.css */ "./src/client/css/newGame/newGame.css");
+var NewGame = /** @class */ (function (_super) {
+    __extends(NewGame, _super);
+    function NewGame() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    NewGame.prototype.render = function () {
+        return (React.createElement("div", { id: "menu-container" },
+            React.createElement(Card, null),
+            React.createElement(StartMenuContainer, null)));
+    };
+    return NewGame;
+}(React.Component));
+exports.default = NewGame;
+
+
+/***/ }),
+
+/***/ "./src/client/tsx/newGame/startMenu.tsx":
+/*!**********************************************!*\
+  !*** ./src/client/tsx/newGame/startMenu.tsx ***!
+  \**********************************************/
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+"use strict";
+
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+var ReactDOM = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+var StartMenuContainer = /** @class */ (function (_super) {
+    __extends(StartMenuContainer, _super);
+    function StartMenuContainer() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    StartMenuContainer.prototype.render = function () {
+        return (React.createElement("div", { className: "start-game-menu-buttons-container" },
+            React.createElement("button", { className: "initial-menu-button", id: "initial-menu-initialize-game", onClick: this.handleClick.bind(this) }, "Iniciar"),
+            React.createElement("button", { className: "initial-menu-button", id: "initial-menu-end-game", onClick: this.handleClick.bind(this) }, "Terminar")));
+    };
+    StartMenuContainer.prototype.handleClick = function (event) {
         var elem = event.target;
         if (elem.id == "initial-menu-start-game") {
-            console.log(this.nameField.current.value);
-            var userCreated = this.newUserConnected();
-            if (userCreated) {
-                window.location.href = "/new-game";
-            }
-            else {
-                alert("Escribe tu nombre de usuario");
-            }
             console.log("pressed start game");
         }
         else {
             console.log("pressed join game");
         }
     };
-    ButtonsContainer.prototype.newUserConnected = function () {
-        console.log(socket);
-        if (this.nameField.current.value.trim().length > 0) {
-            socket.emit("new user", this.nameField.current.value);
-            return true;
-        }
-        return false;
-        //this.addToUsersBox(userName);
-    };
-    ButtonsContainer.prototype.addToUsersBox = function (userName) {
-        var inboxPeople = document.querySelector(".inbox__people");
-        if (!!document.querySelector("." + userName + "-userlist")) {
-            return;
-        }
-        var userBox = "\n            <div class=\"chat_ib " + userName + "-userlist\">\n            <h5>" + userName + "</h5>\n            </div>\n        ";
-        inboxPeople.innerHTML += userBox;
-    };
-    return ButtonsContainer;
+    return StartMenuContainer;
 }(React.Component));
-exports.default = ButtonsContainer;
+exports.default = StartMenuContainer;
 
 
 /***/ }),
@@ -40796,25 +41185,65 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.Index = void 0;
 var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 var ReactDOM = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
-var ButtonsContainer = __webpack_require__(/*! ./buttonsContainer.tsx */ "./src/client/tsx/pages/index/buttonsContainer.tsx").default;
-__webpack_require__(/*! ./../../../css/initialMenu/main.css */ "./src/client/css/initialMenu/main.css");
+var Link = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js").Link;
+var socket = __webpack_require__(/*! ./../../../../../node_modules/socket.io/client-dist/socket.io.js */ "./node_modules/socket.io/client-dist/socket.io.js")();
+__webpack_require__(/*! ./../../../css/pages/index.css */ "./src/client/css/pages/index.css");
+var userName = "";
 var Index = /** @class */ (function (_super) {
     __extends(Index, _super);
     function Index() {
-        return _super !== null && _super.apply(this, arguments) || this;
+        var _this = _super.call(this) || this;
+        _this.nameField = React.createRef();
+        return _this;
     }
     Index.prototype.render = function () {
-        return (React.createElement("div", { id: "main-container" },
-            React.createElement("img", { id: "initial-menu-background-image", src: "/images/loteriaBackground.jpg", alt: "" }),
-            React.createElement(ButtonsContainer, null)));
+        return (React.createElement("div", { className: "initial-menu-buttons-container" },
+            React.createElement("div", { class: "form__group" },
+                React.createElement("input", { ref: this.nameField, type: "text", class: "form__input", id: "user-name", placeholder: "Nombre de Usuario o sala a unirse", required: "" }),
+                React.createElement("label", { for: "name", class: "form__label" }, "Nombre de Usuario o sala a unirse")),
+            React.createElement("button", { className: "initial-menu-button", id: "initial-menu-start-game", onClick: this.handleClick.bind(this) }, "Crear juego"),
+            React.createElement("button", { className: "initial-menu-button", id: "initial-menu-join-game", onClick: this.handleClick.bind(this) }, "Unirse a un juego")));
+    };
+    Index.prototype.handleClick = function (event) {
+        var elem = event.target;
+        if (elem.id == "initial-menu-start-game") {
+            console.log(this.nameField.current.value);
+            var userCreated = this.newUserConnected();
+            if (userCreated) {
+                this.props.history.push("/new-game");
+                //window.location.href = "/new-game";
+            }
+            else {
+                alert("Escribe tu nombre de usuario");
+            }
+            console.log("pressed start game");
+        }
+        else {
+            console.log("pressed join game");
+        }
+    };
+    Index.prototype.newUserConnected = function () {
+        console.log(socket);
+        if (this.nameField.current.value.trim().length > 0) {
+            socket.emit("new user", this.nameField.current.value);
+            return true;
+        }
+        return false;
+        //this.addToUsersBox(userName);
+    };
+    Index.prototype.addToUsersBox = function (userName) {
+        var inboxPeople = document.querySelector(".inbox__people");
+        if (!!document.querySelector("." + userName + "-userlist")) {
+            return;
+        }
+        var userBox = "\n            <div class=\"chat_ib " + userName + "-userlist\">\n            <h5>" + userName + "</h5>\n            </div>\n        ";
+        inboxPeople.innerHTML += userBox;
     };
     return Index;
 }(React.Component));
-exports.Index = Index;
-ReactDOM.render(React.createElement(Index, null), document.getElementById('root'));
+exports.default = Index;
 
 
 /***/ }),

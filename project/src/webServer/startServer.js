@@ -18,13 +18,13 @@ app.get('/', (req, res) => {
   res.sendFile(path.resolve(__dirname + '/../client/views/index.html'));
 });
 
-app.get('/new-game', (req, res) => {
-  res.sendFile(path.resolve(__dirname + '/../client/views/new_game.html'));
-});
+// app.get('/new-game', (req, res) => {
+//   res.sendFile(path.resolve(__dirname + '/../client/views/new_game.html'));
+// });
 
-app.get('/game', (req, res) => {
-  res.sendFile(path.resolve(__dirname + '/../client/views/game.html'));
-});
+// app.get('/game', (req, res) => {
+//   res.sendFile(path.resolve(__dirname + '/../client/views/game.html'));
+// });
 
 app.get('/service/card', (req, res) => {
   let cardsR = [];

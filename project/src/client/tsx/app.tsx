@@ -11,6 +11,7 @@ var {
     useParams
   } = require("react-router-dom");
 var Router = BrowserRouter;
+var NewGame = require('./newGame/newGame.tsx').default;
 var Index = require('./pages/index/index.tsx').default;
 import './../css/initialMenu/main.css';
 
@@ -18,17 +19,13 @@ export class App extends React.Component {
     render() {
         return (
             <Router>
-              <Switch>
-                <Route path="/">
-                  <Index />
-                </Route>
-                <Route path="/users">
-                  <Index />
-                </Route>
-                <Route path="/">
-                  <Index />
-                </Route>
-              </Switch>
+               <div id="main-container">
+                    <img id="initial-menu-background-image" src="/images/loteriaBackground.jpg" alt=""/>
+                    <Switch>           
+                      <Route exact path="/" component={Index} />           
+                      <Route path="/new-game" component={NewGame} />
+                    </Switch>
+                </div>                 
           </Router>
         );
     }
