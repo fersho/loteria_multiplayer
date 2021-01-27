@@ -40896,7 +40896,7 @@ var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 var ReactDOM = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
 var _a = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js"), BrowserRouter = _a.BrowserRouter, Switch = _a.Switch, Route = _a.Route, Link = _a.Link, useRouteMatch = _a.useRouteMatch, useParams = _a.useParams;
 var Router = BrowserRouter;
-var NewGame = __webpack_require__(/*! ./newGame/newGame.tsx */ "./src/client/tsx/newGame/newGame.tsx").default;
+var NewGame = __webpack_require__(/*! ./pages/newGame/newGame.tsx */ "./src/client/tsx/pages/newGame/newGame.tsx").default;
 var Index = __webpack_require__(/*! ./pages/index/index.tsx */ "./src/client/tsx/pages/index/index.tsx").default;
 __webpack_require__(/*! ./../css/initialMenu/main.css */ "./src/client/css/initialMenu/main.css");
 var App = /** @class */ (function (_super) {
@@ -41068,10 +41068,10 @@ exports.default = Element;
 
 /***/ }),
 
-/***/ "./src/client/tsx/newGame/newGame.tsx":
-/*!********************************************!*\
-  !*** ./src/client/tsx/newGame/newGame.tsx ***!
-  \********************************************/
+/***/ "./src/client/tsx/pages/index/index.tsx":
+/*!**********************************************!*\
+  !*** ./src/client/tsx/pages/index/index.tsx ***!
+  \**********************************************/
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 "use strict";
@@ -41092,10 +41092,99 @@ var __extends = (this && this.__extends) || (function () {
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 var ReactDOM = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
-var StartMenuContainer = __webpack_require__(/*! ./startMenu.tsx */ "./src/client/tsx/newGame/startMenu.tsx").default;
-var Card = __webpack_require__(/*! ./../loteriaCard/card.tsx */ "./src/client/tsx/loteriaCard/card.tsx").default;
-__webpack_require__(/*! ./../../css/initialMenu/main.css */ "./src/client/css/initialMenu/main.css");
-__webpack_require__(/*! ./../../css/newGame/newGame.css */ "./src/client/css/newGame/newGame.css");
+var Link = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js").Link;
+var socket = __webpack_require__(/*! ./../../../../../node_modules/socket.io/client-dist/socket.io.js */ "./node_modules/socket.io/client-dist/socket.io.js")();
+__webpack_require__(/*! ./../../../css/pages/index.css */ "./src/client/css/pages/index.css");
+var userName = "";
+var Index = /** @class */ (function (_super) {
+    __extends(Index, _super);
+    function Index() {
+        var _this = _super.call(this) || this;
+        _this.nameField = React.createRef();
+        _this.roomField = React.createRef();
+        return _this;
+    }
+    Index.prototype.render = function () {
+        return (React.createElement("div", { className: "initial-menu-buttons-container" },
+            React.createElement("div", { className: "form__group" },
+                React.createElement("input", { ref: this.nameField, type: "text", className: "form__input", id: "user-name", placeholder: "Nombre de usuario", required: "" }),
+                React.createElement("label", { htmlFor: "name", className: "form__label" }, "Nombre de Usuario")),
+            React.createElement("button", { className: "initial-menu-button", id: "initial-menu-start-game", onClick: this.handleClick.bind(this) }, "Crear juego"),
+            React.createElement("div", { className: "form__group" },
+                React.createElement("input", { ref: this.roomField, type: "text", className: "form__input", id: "user-name", placeholder: "Nombre de sala", required: "" }),
+                React.createElement("label", { htmlFor: "name", className: "form__label" }, "Nombre de sala")),
+            React.createElement("button", { className: "initial-menu-button", id: "initial-menu-join-game", onClick: this.handleClick.bind(this) }, "Unirse a un juego")));
+    };
+    Index.prototype.handleClick = function (event) {
+        var elem = event.target;
+        if (elem.id == "initial-menu-start-game") {
+            console.log(this.nameField.current.value);
+            var userCreated = this.newUserConnected();
+            if (userCreated) {
+                this.props.history.push({ pathname: "/new-game", state: { userName: this.nameField.current.value } });
+                //window.location.href = "/new-game";
+            }
+            else {
+                alert("Escribe tu nombre de usuario");
+            }
+            console.log("pressed start game");
+        }
+        else {
+            console.log("pressed join game");
+        }
+    };
+    Index.prototype.newUserConnected = function () {
+        console.log(socket);
+        if (this.nameField.current.value.trim().length > 0) {
+            socket.emit("create game", this.nameField.current.value);
+            return true;
+        }
+        return false;
+        //this.addToUsersBox(userName);
+    };
+    Index.prototype.addToUsersBox = function (userName) {
+        var inboxPeople = document.querySelector(".inbox__people");
+        if (!!document.querySelector("." + userName + "-userlist")) {
+            return;
+        }
+        var userBox = "\n            <div class=\"chat_ib " + userName + "-userlist\">\n            <h5>" + userName + "</h5>\n            </div>\n        ";
+        inboxPeople.innerHTML += userBox;
+    };
+    return Index;
+}(React.Component));
+exports.default = Index;
+
+
+/***/ }),
+
+/***/ "./src/client/tsx/pages/newGame/newGame.tsx":
+/*!**************************************************!*\
+  !*** ./src/client/tsx/pages/newGame/newGame.tsx ***!
+  \**************************************************/
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+"use strict";
+
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+var ReactDOM = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+var StartMenuContainer = __webpack_require__(/*! ./startMenu.tsx */ "./src/client/tsx/pages/newGame/startMenu.tsx").default;
+var Card = __webpack_require__(/*! ./../../loteriaCard/card.tsx */ "./src/client/tsx/loteriaCard/card.tsx").default;
+__webpack_require__(/*! ./../../../css/initialMenu/main.css */ "./src/client/css/initialMenu/main.css");
+__webpack_require__(/*! ./../../../css/newGame/newGame.css */ "./src/client/css/newGame/newGame.css");
 var NewGame = /** @class */ (function (_super) {
     __extends(NewGame, _super);
     function NewGame() {
@@ -41103,6 +41192,9 @@ var NewGame = /** @class */ (function (_super) {
     }
     NewGame.prototype.render = function () {
         return (React.createElement("div", { id: "menu-container" },
+            React.createElement("h1", null,
+                this.props.location.state.userName,
+                " Elige tu carta"),
             React.createElement(Card, null),
             React.createElement(StartMenuContainer, null)));
     };
@@ -41113,10 +41205,10 @@ exports.default = NewGame;
 
 /***/ }),
 
-/***/ "./src/client/tsx/newGame/startMenu.tsx":
-/*!**********************************************!*\
-  !*** ./src/client/tsx/newGame/startMenu.tsx ***!
-  \**********************************************/
+/***/ "./src/client/tsx/pages/newGame/startMenu.tsx":
+/*!****************************************************!*\
+  !*** ./src/client/tsx/pages/newGame/startMenu.tsx ***!
+  \****************************************************/
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 "use strict";
@@ -41159,91 +41251,6 @@ var StartMenuContainer = /** @class */ (function (_super) {
     return StartMenuContainer;
 }(React.Component));
 exports.default = StartMenuContainer;
-
-
-/***/ }),
-
-/***/ "./src/client/tsx/pages/index/index.tsx":
-/*!**********************************************!*\
-  !*** ./src/client/tsx/pages/index/index.tsx ***!
-  \**********************************************/
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
-
-"use strict";
-
-var __extends = (this && this.__extends) || (function () {
-    var extendStatics = function (d, b) {
-        extendStatics = Object.setPrototypeOf ||
-            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-            function (d, b) { for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p]; };
-        return extendStatics(d, b);
-    };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-var ReactDOM = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
-var Link = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js").Link;
-var socket = __webpack_require__(/*! ./../../../../../node_modules/socket.io/client-dist/socket.io.js */ "./node_modules/socket.io/client-dist/socket.io.js")();
-__webpack_require__(/*! ./../../../css/pages/index.css */ "./src/client/css/pages/index.css");
-var userName = "";
-var Index = /** @class */ (function (_super) {
-    __extends(Index, _super);
-    function Index() {
-        var _this = _super.call(this) || this;
-        _this.nameField = React.createRef();
-        return _this;
-    }
-    Index.prototype.render = function () {
-        return (React.createElement("div", { className: "initial-menu-buttons-container" },
-            React.createElement("div", { class: "form__group" },
-                React.createElement("input", { ref: this.nameField, type: "text", class: "form__input", id: "user-name", placeholder: "Nombre de Usuario o sala a unirse", required: "" }),
-                React.createElement("label", { for: "name", class: "form__label" }, "Nombre de Usuario o sala a unirse")),
-            React.createElement("button", { className: "initial-menu-button", id: "initial-menu-start-game", onClick: this.handleClick.bind(this) }, "Crear juego"),
-            React.createElement("button", { className: "initial-menu-button", id: "initial-menu-join-game", onClick: this.handleClick.bind(this) }, "Unirse a un juego")));
-    };
-    Index.prototype.handleClick = function (event) {
-        var elem = event.target;
-        if (elem.id == "initial-menu-start-game") {
-            console.log(this.nameField.current.value);
-            var userCreated = this.newUserConnected();
-            if (userCreated) {
-                this.props.history.push("/new-game");
-                //window.location.href = "/new-game";
-            }
-            else {
-                alert("Escribe tu nombre de usuario");
-            }
-            console.log("pressed start game");
-        }
-        else {
-            console.log("pressed join game");
-        }
-    };
-    Index.prototype.newUserConnected = function () {
-        console.log(socket);
-        if (this.nameField.current.value.trim().length > 0) {
-            socket.emit("new user", this.nameField.current.value);
-            return true;
-        }
-        return false;
-        //this.addToUsersBox(userName);
-    };
-    Index.prototype.addToUsersBox = function (userName) {
-        var inboxPeople = document.querySelector(".inbox__people");
-        if (!!document.querySelector("." + userName + "-userlist")) {
-            return;
-        }
-        var userBox = "\n            <div class=\"chat_ib " + userName + "-userlist\">\n            <h5>" + userName + "</h5>\n            </div>\n        ";
-        inboxPeople.innerHTML += userBox;
-    };
-    return Index;
-}(React.Component));
-exports.default = Index;
 
 
 /***/ }),

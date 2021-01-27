@@ -11,7 +11,7 @@ var {
     useParams
   } = require("react-router-dom");
 var Router = BrowserRouter;
-var NewGame = require('./newGame/newGame.tsx').default;
+var NewGame = require('./pages/newGame/newGame.tsx').default;
 var Index = require('./pages/index/index.tsx').default;
 import './../css/initialMenu/main.css';
 

@@ -14,16 +14,20 @@ export default class Index extends React.Component {
     constructor() {
         super()
         this.nameField = React.createRef()
+        this.roomField = React.createRef()
     }
     render() {
         return (
             <div className="initial-menu-buttons-container" >
-                <div class="form__group">
-                    <input ref={this.nameField} type="text" class="form__input" id="user-name" placeholder="Nombre de Usuario o sala a unirse" required="" />
-                    <label for="name" class="form__label">Nombre de Usuario o sala a unirse</label>
+                <div className="form__group">
+                    <input ref={this.nameField} type="text" className="form__input" id="user-name" placeholder="Nombre de usuario" required="" />
+                    <label htmlFor="name" className="form__label">Nombre de Usuario</label>
                 </div>
-
                 <button className="initial-menu-button" id="initial-menu-start-game" onClick={this.handleClick.bind(this)}>Crear juego</button>
+                <div className="form__group">
+                    <input ref={this.roomField} type="text" className="form__input" id="user-name" placeholder="Nombre de sala" required="" />
+                    <label htmlFor="name" className="form__label">Nombre de sala</label>
+                </div>
                 <button className="initial-menu-button" id="initial-menu-join-game" onClick={this.handleClick.bind(this)}>Unirse a un juego</button>
             </div>
         );
@@ -34,7 +38,7 @@ export default class Index extends React.Component {
             console.log(this.nameField.current.value);
             let userCreated = this.newUserConnected();
             if(userCreated) {
-                this.props.history.push("/new-game");
+                this.props.history.push({pathname: "/new-game", state: {userName: this.nameField.current.value}});
                 //window.location.href = "/new-game";
             }else {
                 alert("Escribe tu nombre de usuario");
@@ -49,7 +53,7 @@ export default class Index extends React.Component {
     newUserConnected() {
         console.log(socket);
         if(this.nameField.current.value.trim().length > 0) {
-            socket.emit("new user", this.nameField.current.value);
+            socket.emit("create game", this.nameField.current.value);
             return true;
         }
         return false;

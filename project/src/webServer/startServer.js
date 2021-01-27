@@ -1,11 +1,13 @@
 const express = require("express");
 const socket = require("socket.io");
 var path = require('path');
-var mongo = require('mongodb');
+var mongoManagerClass = require('./../mongo/mongoManager.js').default;
+var mongoManager = new mongoManagerClass();
 
 // App setup
 const PORT = 3000;
 const app = express();
+mongoManager.createDb();
 const server = app.listen(PORT, function () {
   console.log(`Listening on port ${PORT}`);
   console.log(`http://localhost:${PORT}`);
@@ -60,7 +62,36 @@ const activeUsers = new Set();
 io.on("connection", function (socket) {
   console.log("Made socket connection");
 
-  socket.on("new user", function (data) {
+  socket.on("create room", function (data) {
+    let collectionName = "games";
+    mongoManager.createCollection(collectionName);
+    let keepTrying = true;
+    while(keepTrying) {
+      let max = 1000;
+      let min = 500;
+      let gameNumber = Math.random() * (max - min) + min;
+      let gameName = "game-"+gameNumber;
+      mongoManager.query({gameName: gameName}, collectionName, function(err, result) {
+        if(!err) {
+          if(result.length == 0) {
+            keepTrying = false;
+          }
+        }else {
+          keepTrying = false;
+          console.log(err);
+        }
+      });
+    }
+    
+
+    socket.userId = data;
+    activeUsers.add(data);
+    console.log("nuevo user: "+data);
+    io.emit("new room", gameName);
+    io.emit("new user", [...activeUsers]);
+  });
+
+  socket.on("join game", function (data) {
     socket.userId = data;
     activeUsers.add(data);
     console.log("nuevo user: "+data);

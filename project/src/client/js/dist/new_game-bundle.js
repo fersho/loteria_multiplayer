@@ -30771,10 +30771,10 @@ exports.default = Element;
 
 /***/ }),
 
-/***/ "./src/client/tsx/newGame/newGame.tsx":
-/*!********************************************!*\
-  !*** ./src/client/tsx/newGame/newGame.tsx ***!
-  \********************************************/
+/***/ "./src/client/tsx/pages/newGame/newGame.tsx":
+/*!**************************************************!*\
+  !*** ./src/client/tsx/pages/newGame/newGame.tsx ***!
+  \**************************************************/
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 
@@ -30794,10 +30794,10 @@ var __extends = (this && this.__extends) || (function () {
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 var ReactDOM = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
-var StartMenuContainer = __webpack_require__(/*! ./startMenu.tsx */ "./src/client/tsx/newGame/startMenu.tsx").default;
-var Card = __webpack_require__(/*! ./../loteriaCard/card.tsx */ "./src/client/tsx/loteriaCard/card.tsx").default;
-__webpack_require__(/*! ./../../css/initialMenu/main.css */ "./src/client/css/initialMenu/main.css");
-__webpack_require__(/*! ./../../css/newGame/newGame.css */ "./src/client/css/newGame/newGame.css");
+var StartMenuContainer = __webpack_require__(/*! ./startMenu.tsx */ "./src/client/tsx/pages/newGame/startMenu.tsx").default;
+var Card = __webpack_require__(/*! ./../../loteriaCard/card.tsx */ "./src/client/tsx/loteriaCard/card.tsx").default;
+__webpack_require__(/*! ./../../../css/initialMenu/main.css */ "./src/client/css/initialMenu/main.css");
+__webpack_require__(/*! ./../../../css/newGame/newGame.css */ "./src/client/css/newGame/newGame.css");
 var NewGame = /** @class */ (function (_super) {
     __extends(NewGame, _super);
     function NewGame() {
@@ -30805,6 +30805,9 @@ var NewGame = /** @class */ (function (_super) {
     }
     NewGame.prototype.render = function () {
         return (React.createElement("div", { id: "menu-container" },
+            React.createElement("h1", null,
+                this.props.location.state.userName,
+                " Elige tu carta"),
             React.createElement(Card, null),
             React.createElement(StartMenuContainer, null)));
     };
@@ -30815,10 +30818,10 @@ exports.default = NewGame;
 
 /***/ }),
 
-/***/ "./src/client/tsx/newGame/startMenu.tsx":
-/*!**********************************************!*\
-  !*** ./src/client/tsx/newGame/startMenu.tsx ***!
-  \**********************************************/
+/***/ "./src/client/tsx/pages/newGame/startMenu.tsx":
+/*!****************************************************!*\
+  !*** ./src/client/tsx/pages/newGame/startMenu.tsx ***!
+  \****************************************************/
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 
@@ -30934,7 +30937,7 @@ exports.default = StartMenuContainer;
 /******/ 	// startup
 /******/ 	// Load entry module
 /******/ 	// This entry module is referenced by other modules so it can't be inlined
-/******/ 	__webpack_require__("./src/client/tsx/newGame/newGame.tsx");
+/******/ 	__webpack_require__("./src/client/tsx/pages/newGame/newGame.tsx");
 /******/ })()
 ;
 //# sourceMappingURL=new_game-bundle.js.map

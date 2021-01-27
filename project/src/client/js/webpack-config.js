@@ -6,7 +6,7 @@ module.exports = {
     entry: {
         app: [path.resolve(__dirname, './../tsx') + '/app.tsx'],
         game: [path.resolve(__dirname, './../tsx') + '/game.tsx'],
-        new_game: [path.resolve(__dirname, './../tsx') + '/newGame/newGame.tsx']
+        new_game: [path.resolve(__dirname, './../tsx') + '/pages/newGame/newGame.tsx']
     },
     output: {
         path: path.resolve(__dirname, "dist"),
