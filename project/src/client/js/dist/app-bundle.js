@@ -41102,6 +41102,9 @@ var Index = /** @class */ (function (_super) {
         var _this = _super.call(this) || this;
         _this.nameField = React.createRef();
         _this.roomField = React.createRef();
+        socket.on("room created", function (roomName) {
+            _this.roomField.current.value = roomName;
+        });
         return _this;
     }
     Index.prototype.render = function () {
@@ -41121,7 +41124,7 @@ var Index = /** @class */ (function (_super) {
             console.log(this.nameField.current.value);
             var userCreated = this.newUserConnected();
             if (userCreated) {
-                this.props.history.push({ pathname: "/new-game", state: { userName: this.nameField.current.value } });
+                this.props.history.push({ pathname: "/new-game", state: { userName: this.nameField.current.value, roomName: this.roomField.current.value } });
                 //window.location.href = "/new-game";
             }
             else {
@@ -41136,7 +41139,7 @@ var Index = /** @class */ (function (_super) {
     Index.prototype.newUserConnected = function () {
         console.log(socket);
         if (this.nameField.current.value.trim().length > 0) {
-            socket.emit("create game", this.nameField.current.value);
+            socket.emit("create room", this.nameField.current.value);
             return true;
         }
         return false;

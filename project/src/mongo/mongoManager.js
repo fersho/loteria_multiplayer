@@ -1,5 +1,5 @@
 var MongoClient = require('mongodb').MongoClient;
-export default class MongoManager {
+class MongoManager {
   // We use destructuring to match properties on the object
   // passed into separate variables for character and actor
   constructor() {
@@ -54,3 +54,4 @@ export default class MongoManager {
     });
   }
 }
+exports.MongoManager = MongoManager;

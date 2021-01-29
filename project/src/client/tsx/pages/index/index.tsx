@@ -12,9 +12,12 @@ let userName = "";
 
 export default class Index extends React.Component {
     constructor() {
-        super()
-        this.nameField = React.createRef()
-        this.roomField = React.createRef()
+        super();
+        this.nameField = React.createRef();
+        this.roomField = React.createRef();
+        socket.on("room created", (roomName) => {
+            this.roomField.current.value = roomName;
+        });
     }
     render() {
         return (
@@ -38,7 +41,7 @@ export default class Index extends React.Component {
             console.log(this.nameField.current.value);
             let userCreated = this.newUserConnected();
             if(userCreated) {
-                this.props.history.push({pathname: "/new-game", state: {userName: this.nameField.current.value}});
+                this.props.history.push({pathname: "/new-game", state: {userName: this.nameField.current.value, roomName: this.roomField.current.value}});
                 //window.location.href = "/new-game";
             }else {
                 alert("Escribe tu nombre de usuario");
@@ -53,7 +56,7 @@ export default class Index extends React.Component {
     newUserConnected() {
         console.log(socket);
         if(this.nameField.current.value.trim().length > 0) {
-            socket.emit("create game", this.nameField.current.value);
+            socket.emit("create room", this.nameField.current.value);
             return true;
         }
         return false;
