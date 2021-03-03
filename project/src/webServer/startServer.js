@@ -1,5 +1,4 @@
 const express = require("express");
-const socket = require("socket.io");
 var path = require('path');
 var mongoManagerClass = require('./../mongo/mongoManager.js').MongoManager;
 var createServices = require('./services.js').createServices;

@@ -41123,11 +41123,7 @@ var Index = /** @class */ (function (_super) {
         if (elem.id == "initial-menu-start-game") {
             console.log(this.nameField.current.value);
             var userCreated = this.newUserConnected();
-            if (userCreated) {
-                this.props.history.push({ pathname: "/new-game", state: { userName: this.nameField.current.value, roomName: this.roomField.current.value } });
-                //window.location.href = "/new-game";
-            }
-            else {
+            if (!userCreated) {
                 alert("Escribe tu nombre de usuario");
             }
             console.log("pressed start game");
@@ -41137,9 +41133,27 @@ var Index = /** @class */ (function (_super) {
         }
     };
     Index.prototype.newUserConnected = function () {
+        var _this = this;
         console.log(socket);
         if (this.nameField.current.value.trim().length > 0) {
-            socket.emit("create room", this.nameField.current.value);
+            var requestOptions = {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ userName: this.nameField.current.value })
+            };
+            fetch('/api/room', requestOptions)
+                .then(function (response) { return response.json(); })
+                .then(function (result) {
+                console.log(result);
+                if (result) {
+                    var jsonResponse = result;
+                    _this.props.history.push({ pathname: "/new-game", state: { userName: _this.nameField.current.value, roomName: jsonResponse.room.name } });
+                }
+                else {
+                    console.log('Respuesta de red OK pero respuesta HTTP no OK');
+                }
+            });
+            //socket.emit("create room", this.nameField.current.value);
             return true;
         }
         return false;

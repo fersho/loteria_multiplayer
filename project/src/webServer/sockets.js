@@ -1,3 +1,5 @@
+const socket = require("socket.io");
+
 function createSocketsEvents(server) {
     // Socket setup
     const io = socket(server);

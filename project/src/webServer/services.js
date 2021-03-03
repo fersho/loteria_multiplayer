@@ -7,14 +7,17 @@ function createServices(app) {
     app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
 
     app.post('/api/room', (req, res) => {
+        var userName = req.body.userName;
+
         let collectionName = "rooms";
         mongoManager.createCollection(collectionName);
         let keepTrying = true;
+        let roomName = "";
         while(keepTrying) {
             let max = 1000;
             let min = 500;
             let roomNumber = Math.random() * (max - min) + min;
-            let roomName = "room-"+roomNumber;
+            roomName = "room-"+roomNumber;
             mongoManager.query({roomName: roomName}, collectionName, function(err, result) {
                 if(!err) {
                 if(result.length == 0) {

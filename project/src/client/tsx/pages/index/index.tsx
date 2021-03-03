@@ -40,10 +40,7 @@ export default class Index extends React.Component {
         if(elem.id == "initial-menu-start-game") {
             console.log(this.nameField.current.value);
             let userCreated = this.newUserConnected();
-            if(userCreated) {
-                this.props.history.push({pathname: "/new-game", state: {userName: this.nameField.current.value, roomName: this.roomField.current.value}});
-                //window.location.href = "/new-game";
-            }else {
+            if(!userCreated) {
                 alert("Escribe tu nombre de usuario");
             }
             console.log("pressed start game");
@@ -56,7 +53,24 @@ export default class Index extends React.Component {
     newUserConnected() {
         console.log(socket);
         if(this.nameField.current.value.trim().length > 0) {
-            socket.emit("create room", this.nameField.current.value);
+            const requestOptions = {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ userName: this.nameField.current.value })
+            };
+            fetch('/api/room', requestOptions)
+                .then(response => response.json())
+                .then(result => {
+                    console.log(result);
+                    if(result) {
+                        let jsonResponse = result;
+                        this.props.history.push({pathname: "/new-game", state: {userName: this.nameField.current.value, roomName: jsonResponse.room.name}});
+
+                    } else {
+                      console.log('Respuesta de red OK pero respuesta HTTP no OK');
+                    }
+                });
+            //socket.emit("create room", this.nameField.current.value);
             return true;
         }
         return false;
